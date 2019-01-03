@@ -1,0 +1,14 @@
+<h1>Je tekst heeft {{ count }} worden</h1>
+
+<h2>Dit is je tekst</h2>
+{{ text }}
+
+<h2>Woorden aantal keer gebruikt:</h2> 
+
+{% for word, counttotal in worddic %}
+
+{{ word }} - {{ counttotal }}
+
+<br/>
+
+{% endfor %}

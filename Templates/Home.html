@@ -1,0 +1,9 @@
+<h1>Welkom bij de worden teller</h1>
+
+<form action="{% url 'Count' %}">
+    <textarea cols="40" rows="5" name="full"></textarea>
+    <br/>
+    <input type="submit" value="Count"/>
+</form>
+
+<a href="{%url 'about'%}">Over de woorden teller</a>
